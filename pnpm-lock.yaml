@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': ^17.1.0
   '@commitlint/cz-commitlint': ^17.1.2
   '@trigen/eslint-config': 8.0.0-alpha.14
-  '@trigen/scripts': 8.0.0-alpha.9
+  '@trigen/scripts': 8.0.0-alpha.18
   clean-publish: ^4.0.1
   commitizen: ^4.2.5
   del-cli: ^5.0.0
@@ -23,7 +23,7 @@ devDependencies:
   '@commitlint/config-conventional': 17.1.0
   '@commitlint/cz-commitlint': 17.1.2_yes7iyjckc3rubj3ixzwc3ince
   '@trigen/eslint-config': 8.0.0-alpha.14_v37dtiefj2fmp2s4n57pt7n35y
-  '@trigen/scripts': 8.0.0-alpha.9
+  '@trigen/scripts': 8.0.0-alpha.18
   clean-publish: 4.0.1
   commitizen: 4.2.5
   del-cli: 5.0.0
@@ -725,8 +725,8 @@ packages:
       - typescript
     dev: true
 
-  /@trigen/scripts/8.0.0-alpha.9:
-    resolution: {integrity: sha512-tY7/RMHS+Vry0JbXwhrMiSJlW51qTVrzpjBlc0dZmFg1XWEnMcdvrweTJJxdzI8YyBWYogogFcLhiPfHlKydpQ==}
+  /@trigen/scripts/8.0.0-alpha.18:
+    resolution: {integrity: sha512-wcD15VyMZigVjssbjEHyqujkhtf86LLne7LtJrGrFJCNb/RTFf/ubFBcmJnyhJK2Y7A/tWkbyTBJPetblcFAGg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
