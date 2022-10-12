@@ -51,7 +51,7 @@
     "commitizen": "^4.2.5",
     "del-cli": "^5.0.0",
     "eslint": "^8.25.0",
-    "inquirer": "^8.0.0",
+    "inquirer": "^9.0.0",
     "nano-staged": "^0.8.0",
     "simple-git-hooks": "^2.8.0",
     "simple-github-release": "^1.0.0",
