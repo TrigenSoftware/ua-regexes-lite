@@ -77,8 +77,11 @@ export const regexes = [
       Infinity
     ]
   },
+  /**
+   * Safari on iPad have desktop-like useragent
+   */
   {
-    regex: /Version\/(\d+)\.(\d+)([.,](\d+)|) Safari\//,
+    regex: /Maci.* Version\/(\d+)\.(\d+)([.,](\d+)|)( Mobile\/\w+|) Safari\//,
     family: 'safari'
   },
   /**

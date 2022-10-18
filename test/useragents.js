@@ -176,6 +176,11 @@ export const useragents = [
     ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Safari/605.1.15',
     regex: ['safari']
   },
+  {
+    // iPad 7th Gen have "Mobile/"
+    ua: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Mobile/15E148 Safari/604.1',
+    regex: ['safari']
+  },
   /**
    * Opera Desktop on Presto
    */
