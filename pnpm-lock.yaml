@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/config-conventional': ^17.1.0
   '@commitlint/cz-commitlint': ^17.1.2
   '@trigen/eslint-config': 8.0.0-alpha.20
-  '@trigen/scripts': 8.0.0-alpha.18
+  '@trigen/scripts': 8.0.0-alpha.21
   clean-publish: ^4.0.1
   commitizen: ^4.2.5
   del-cli: ^5.0.0
@@ -23,7 +23,7 @@ devDependencies:
   '@commitlint/config-conventional': 17.1.0
   '@commitlint/cz-commitlint': 17.1.2_d47ofhlgdvq2dlhmx6ong7yc4m
   '@trigen/eslint-config': 8.0.0-alpha.20_eslint@8.25.0
-  '@trigen/scripts': 8.0.0-alpha.18
+  '@trigen/scripts': 8.0.0-alpha.21
   clean-publish: 4.0.1
   commitizen: 4.2.5
   del-cli: 5.0.0
@@ -688,13 +688,13 @@ packages:
       - typescript
     dev: true
 
-  /@trigen/scripts/8.0.0-alpha.18:
-    resolution: {integrity: sha512-wcD15VyMZigVjssbjEHyqujkhtf86LLne7LtJrGrFJCNb/RTFf/ubFBcmJnyhJK2Y7A/tWkbyTBJPetblcFAGg==}
+  /@trigen/scripts/8.0.0-alpha.21:
+    resolution: {integrity: sha512-DnPSiigGqIaKDK4Hm+NTGVdpGKF17dMmLdIAFtXDNH21MJ9i2Cp1svI5gvkBNTjD2qzFXYtAkrI9RJrS8KoVGA==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       argue-cli: 2.0.0
-      dotenv: 14.3.2
+      dotenv: 16.0.3
       p-limit: 4.0.0
     dev: true
 
@@ -1757,8 +1757,8 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /dotenv/14.3.2:
-    resolution: {integrity: sha512-vwEppIphpFdvaMCaHfCEv9IgwcxMljMw2TnAQBB4VWPvzXQLTb82jwmdOKzlEVUL3gNFT4l4TPKO+Bn+sqcrVQ==}
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
     dev: true
 
