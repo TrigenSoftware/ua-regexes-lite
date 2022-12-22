@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': ^17.1.2
   '@commitlint/config-conventional': ^17.1.0
   '@commitlint/cz-commitlint': ^17.1.2
-  '@trigen/eslint-config': 8.0.0-alpha.22
+  '@trigen/eslint-config': 8.0.0-alpha.23
   '@trigen/scripts': 8.0.0-alpha.23
   clean-publish: ^4.0.1
   commitizen: ^4.2.5
@@ -19,7 +19,7 @@ devDependencies:
   '@commitlint/cli': 17.1.2
   '@commitlint/config-conventional': 17.1.0
   '@commitlint/cz-commitlint': 17.1.2_commitizen@4.2.5
-  '@trigen/eslint-config': 8.0.0-alpha.22_eslint@8.25.0
+  '@trigen/eslint-config': 8.0.0-alpha.23_eslint@8.25.0
   '@trigen/scripts': 8.0.0-alpha.23
   clean-publish: 4.0.1
   commitizen: 4.2.5
@@ -219,7 +219,7 @@ packages:
       '@commitlint/types': 17.0.0
       fs-extra: 10.1.0
       git-raw-commits: 2.0.11
-      minimist: 1.2.6
+      minimist: 1.2.7
     dev: true
 
   /@commitlint/resolve-extends/17.1.0:
@@ -480,8 +480,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@trigen/eslint-config/8.0.0-alpha.22_eslint@8.25.0:
-    resolution: {integrity: sha512-Fqxvz/WuQ/pSo1euCX9SgvgxYAqh2Dc2eV6mikuS/Jxa4qgFxLerjeoidJ8oy0O2J1Ss9kWBKVgtubuyZ4IpeQ==}
+  /@trigen/eslint-config/8.0.0-alpha.23_eslint@8.25.0:
+    resolution: {integrity: sha512-9E+cdJMUFhUy7EyfXpctw8N4GecSVEh5ru5WPobYgJR446zXN6JuZgJXZJohCVwB3icMr3neEgs+nwIweMwtzA==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2292,7 +2292,7 @@ packages:
     engines: {node: '>=0.4.7'}
     hasBin: true
     dependencies:
-      minimist: 1.2.6
+      minimist: 1.2.7
       neo-async: 2.6.2
       source-map: 0.6.1
       wordwrap: 1.0.0
@@ -2480,12 +2480,6 @@ packages:
   /is-callable/1.2.7:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
     engines: {node: '>= 0.4'}
-    dev: true
-
-  /is-core-module/2.10.0:
-    resolution: {integrity: sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==}
-    dependencies:
-      has: 1.0.3
     dev: true
 
   /is-core-module/2.11.0:
@@ -3045,7 +3039,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 4.1.0
-      is-core-module: 2.10.0
+      is-core-module: 2.11.0
       semver: 7.3.8
       validate-npm-package-license: 3.0.4
     dev: true
@@ -3595,7 +3589,7 @@ packages:
     resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
     hasBin: true
     dependencies:
-      is-core-module: 2.10.0
+      is-core-module: 2.11.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
