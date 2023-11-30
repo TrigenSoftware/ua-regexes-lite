@@ -82,7 +82,7 @@ export const regexes = [
    * Some versions contains letter subversions
    */
   {
-    regex: /Maci.+ Version\/(\d+)\.(\d+)([.,](\d+)|)( \(\w+\)|)( Mobile\/\w+|) Safari\//,
+    regex: /(Maci|X11).+ Version\/(\d+)\.(\d+)([.,](\d+)|)( \(\w+\)|)( Mobile\/\w+|) Safari\//,
     family: 'safari'
   },
   /**

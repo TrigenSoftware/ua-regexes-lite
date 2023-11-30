@@ -150,6 +150,13 @@ export const useragents = [
     regex: ['chrome', 'chrome@<=70']
   },
   /**
+   * GNOME Web
+   */
+  {
+    ua: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+    regex: ['safari']
+  },
+  /**
    * Safari Desktop
    */
   {
