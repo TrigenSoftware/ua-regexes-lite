@@ -54,7 +54,7 @@ export const regexes = [
     ]
   },
   {
-    regex: /Edge?\/(\d+)(\.(\d+)|)(\.(\d+)|)/,
+    regex: /Edge?\/(\d+)\.(\d+)(\.(\d+)|)/,
     family: 'edge'
   },
   {
