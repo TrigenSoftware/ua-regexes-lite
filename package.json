@@ -52,7 +52,7 @@
     "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^18.0.0",
     "@commitlint/cz-commitlint": "^18.0.0",
-    "@trigen/eslint-config": "8.0.0-alpha.29",
+    "@trigen/eslint-config": "8.0.0-alpha.31",
     "@trigen/scripts": "8.0.0-alpha.29",
     "clean-publish": "^4.0.1",
     "commitizen": "^4.2.5",
