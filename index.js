@@ -69,7 +69,8 @@ export const regexes = [
    * Ignore Edge with EdgeHTML engine.
    */
   {
-    regex: /Chrom(ium|e)\/(\d+)\.(\d+)(\.(\d+)|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))/,
+    // Equivalent to /Chrom(ium|e)\/(\d+)\.(\d+)(\.(\d+)|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))/
+    regex: /Chrom(ium|e)\/(\d+)\.(\d+)(\.(\d+)|)(\.\d+|)($|.*([^e]|[^g]e|[^d]ge|[^E]dge)\/[\d.]+$)/,
     family: 'chrome',
     maxVersion: [
       70,
@@ -183,7 +184,8 @@ export const regexes = [
    * Ignore IE Mobile 11
    */
   {
-    regex: /Android:?[ /-](\d+)(\.(\d+)|)(\.(\d+)|);(?! ARM; Trident)/,
+    // Equivalent to /Android:?[ /-](\d+)(\.(\d+)|)(\.(\d+)|);(?! ARM; Trident)/
+    regex: /Android:?[ /-](\d+)(\.(\d+)|)(\.(\d+)|); ([^A]|A[^R]|AR[^M]|ARM[^;]|ARM;[^ ]|ARM; [^T]|ARM; T[^r]|ARM; Tr[^i]|ARM; Tri[^d]|ARM; Trid[^e]|ARM; Tride[^n]|ARM; Triden[^t])/,
     family: 'android',
     version: [
       4,

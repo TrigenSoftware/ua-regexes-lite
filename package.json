@@ -59,6 +59,7 @@
     "del-cli": "^5.0.0",
     "eslint": "^8.25.0",
     "nano-staged": "^0.8.0",
+    "re2": "^1.21.4",
     "simple-git-hooks": "^2.8.0",
     "simple-github-release": "^1.0.0",
     "standard-version": "^9.5.0"
