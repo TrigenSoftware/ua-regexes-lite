@@ -60,7 +60,7 @@
     "eslint": "^8.25.0",
     "nano-staged": "^0.8.0",
     "simple-git-hooks": "^2.8.0",
-    "simple-github-release": "^1.0.0",
+    "simple-github-release": "^2.0.0",
     "standard-version": "^9.5.0"
   }
 }
