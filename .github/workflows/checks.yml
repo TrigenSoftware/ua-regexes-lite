@@ -9,7 +9,7 @@ jobs:
     name: editorconfig
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install editorconfig-checker
         uses: editorconfig-checker/action-editorconfig-checker@main
       - name: Check editorconfig
@@ -19,7 +19,7 @@ jobs:
     name: package.json
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
